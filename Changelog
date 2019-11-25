@@ -1,0 +1,18 @@
+v02:    first working version :D
+10.2019
+
+v03:
+11.2019
+        + searches files for keywords to determine where data is located in exp file
+        + sulphur opz file also shows 34S/32S and 33S/32S
+        + numbers are now numeric and not strings in excel output
+        + calculates d33S, d33S_2, d34S, d34S_2, D_33S and D_33S_2
+
+TODO
+        +put Sr and S calculation in different files -> improve readability
+        +show multiple graphs in GUI and switch between them
+            build new Graph - done
+            build button for switching - done
+            build switch callback
+        +overwrites output file ( build a generator?? or name the files like the path folder??)
+        +automate last OPZ
